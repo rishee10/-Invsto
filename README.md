@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 You can run this project using either PostgreSQL or SQLite.
 
-🔹 Option 1: PostgreSQL 
+### 🔹 Option 1: PostgreSQL 
 
 Install PostgreSQL and start the service.
 
@@ -65,7 +65,7 @@ Initialize tables:
 >>> exit()
 ```
 
-🔹 Option 2: SQLite (for local development/testing)
+### 🔹 Option 2: SQLite (for local development/testing)
 
 No setup needed.
 By default, if no DATABASE_URL is found, the app will use:
@@ -76,7 +76,7 @@ sqlite:///./trading.db
 
 uvicorn app.main:app --reload
 
-🧪 Running Tests
+## 🧪 Running Tests
 ```bash
 Run all tests
 pytest app/test_main.py -v
@@ -88,4 +88,11 @@ or
 pytest --cov=app --cov-report=term-missing -v
 
 ```
+
+Screecshorts
+
+<img width="1579" height="622" alt="Screenshot 2025-10-23 130302" src="https://github.com/user-attachments/assets/bda2bd92-9dad-4338-a161-61f705c1aeb6" />
+
+
+<img width="1586" height="525" alt="Screenshot 2025-10-23 130330" src="https://github.com/user-attachments/assets/9e9072da-a3f8-497a-a2e2-ca91b3a545be" />
 
