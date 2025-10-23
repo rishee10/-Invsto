@@ -1,4 +1,23 @@
+# Core Framework
 fastapi==0.108.0
+uvicorn[standard]==0.32.0
 httpx==0.28.1
+
+# Database & ORM
+SQLAlchemy==2.0.36
+psycopg2-binary==2.9.9   # PostgreSQL driver
+alembic==1.14.0          # For DB migrations (optional)
+
+# Data Handling & Analysis
+pandas==2.2.3
+numpy==2.1.2
+python-dateutil==2.9.0.post0
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Testing & Coverage
 pytest==8.4.2
-pytest-asyncio==0.22.0
+pytest-cov==5.0.0
+
+
